@@ -1,13 +1,11 @@
 .footer{
     height: 250px;
 }
-
 .aboutuslinks{
     width: 15%;
     height: 180px;
     float: left;
 }
-
 .helpcenterlinks{
     top: -2px;
     position: relative;
@@ -17,7 +15,6 @@
     height: 235px;
     bottom: -10px;
 }
-
 .newsletter{
     position: relative;
     display: inline-block;
@@ -25,7 +22,6 @@
     right: -300px;
     top: -150px;
 }
-
 a{
     display: block;
     position: relative;
@@ -33,11 +29,9 @@ a{
     color: black;
     text-decoration: none;   
 }
-
 a:hover { 
     color: blue;
  }
-
 h3{
     position: relative;
     width: 70%;
@@ -46,7 +40,6 @@ h3{
     font-size: x-large;
     margin-bottom: 10px;
 }
-
 .subscribebtn{
     background-color: #167FAC;
     color: white;
@@ -56,11 +49,9 @@ h3{
     border-left: none;
     margin-left: -10px;
 }
-
 .subscribebtn:hover{
     box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
 }
-
 .newsletterinput{
     border-radius: 5px;
     padding: 5px;
@@ -68,7 +59,6 @@ h3{
     height: 20px;
     border-right: none;
 }
-
 .fit-picture{
     margin-right: 25px;
 }

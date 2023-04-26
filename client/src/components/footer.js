@@ -1,5 +1,4 @@
 import "../componentsCSS/footer.css";
-
 export default function FooterComponent() {
   return (
     <div className="footer">
@@ -24,7 +23,6 @@ export default function FooterComponent() {
         <a href="#">FAQs</a>
         <a href="#">Contact Us</a>
       </div>
-
       <div className="newsletter">
         <input
           className="newsletterinput"
@@ -34,13 +32,11 @@ export default function FooterComponent() {
         <button className="subscribebtn" type="button">
           Subscribe
         </button>
-
         <img
           class="fit-picture"
           src="../images/footer-image/Facebook.jpg"
           alt="Facebook Icon"
         ></img>
-
         <img
           class="fit-picture"
           src="../images/footer-image/Pintrest.jpg"

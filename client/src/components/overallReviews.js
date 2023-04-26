@@ -8,16 +8,11 @@ import "../componentsCSS/askquestion.css";
 import "../componentsCSS/writeAReview.css";
 import WriteAReview from "./writeAReview";
 import AskQuestion from "./askQuestion";
-
 export default function OverallReview() {
   const ratingValue = 4.8; // Replace with your rating value
   const filledStars = "★".repeat(Math.ceil(ratingValue));
   const emptyStars = "☆".repeat(5 - Math.ceil(ratingValue));
-
-  //create a state to determine which dropdown to use
-  // Default set it to "None"
   const [currentDiv, setCurrentDiv] = useState("None");
-
   return (
     <div className="Overall-Review-Component">
       <hr className="solid1" />
@@ -49,7 +44,6 @@ export default function OverallReview() {
         </div>
       </div>
       <div className="dropdowndiv">
-        {/* // Create buttons that change the value of statte for "currentDiv" */}
         <div className="buttondiv">
           <button
             className="Review"

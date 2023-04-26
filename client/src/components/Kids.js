@@ -1,8 +1,6 @@
 import React from "react";
 
 const Kids = ({ handleOpenK, handleCloseK }) => {
-  //object containing menu categories
-
   const kids = {
     AllKids: "All Kids",
     Baby: ["Tops", "Onesies", "Bottoms", "Accessories"],
@@ -31,7 +29,6 @@ const Kids = ({ handleOpenK, handleCloseK }) => {
       "Bottoms",
     ],
   };
-
   return (
     <>
       <div className="HeaderCompenent-KidsModal" onMouseLeave={handleCloseK}>
@@ -76,5 +73,4 @@ const Kids = ({ handleOpenK, handleCloseK }) => {
     </>
   );
 };
-
 export default Kids;

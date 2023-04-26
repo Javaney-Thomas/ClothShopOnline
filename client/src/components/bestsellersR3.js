@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
-
 const Carousel = () => {
   const [info, setInfo] = useState([]);
-
-  const host = "https://phill-in-the-blank.onrender.com";
-
+  // const host = "https://phill-in-the-blank.onrender.com";
+  const host = "http://localhost:8000";
   const getData = async () => {
     try {
       const response = await fetch(`${host}/api/products`);
@@ -19,11 +17,9 @@ const Carousel = () => {
       console.error("Error fetching products:", error);
     }
   };
-
   useEffect(() => {
     getData();
   }, []);
-
   var settings = {
     dots: false,
     infinite: true,
@@ -32,7 +28,6 @@ const Carousel = () => {
     slidesToScroll: 2,
     initialSlide: 11,
   };
-
   return (
     <div className="maincontainer">
       <div className="carocontainer">
@@ -73,5 +68,4 @@ const Carousel = () => {
     </div>
   );
 };
-
 export default Carousel;

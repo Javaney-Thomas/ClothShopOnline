@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import ColorPickerSizeColumn from "./ColorPicker-SizeColumn.js";
 import "../componentsCSS/colorPicker.css";
-
 function ColorPicker() {
   const [productName, setProductName] = useState(
     "Heavy Blend™ Hooded Sweatshirt - Gildan 18500"
@@ -12,8 +11,8 @@ function ColorPicker() {
   const [currentColor, setCurrentColor] = useState("White");
   const [displayColor, setDisplayColor] = useState("White");
   const [sizes, setSizes] = useState([]);
-
-  const host = "https://phill-in-the-blank.onrender.com";
+  // const host = "https://phill-in-the-blank.onrender.com";
+  const host = "http://localhost:8000";
   const colorList = [
     "White",
     "Black",
@@ -71,22 +70,17 @@ function ColorPicker() {
       console.error(err.message);
     }
   };
-
   const handleMouseClick = async (color) => {
     console.log("Selected color: ", color);
     setCurrentColor(color);
   };
-
   useEffect(() => {
     getSizeData();
   }, []);
-
   useEffect(() => {
     getSizeData();
   }, [currentColor]);
-
   let src = `../images/color-buttons/${currentColor}.jpg`;
-
   return (
     <div className="colorPicker-all">
       <div className="colorPicker-productName">{productName}</div>
@@ -132,22 +126,17 @@ function ColorPicker() {
           <div className="colorPicker-available">available</div>
           <img className="colorPicker-colorButton" src={src} />
         </div>
-        {sizes.map((thisSize, index) => {
+        {/* {sizes.map((thisSize, index) => {
           return <ColorPickerSizeColumn key={index} data={thisSize} />;
-        })}
+        })} */}
       </div>
       <div className="colorPicker-addToCart blueBackground">ADD TO CART</div>
       <select name="userList" id="userList" className="colorPicker-listSelect">
         <option value="Select">Select List</option>
         <option value="Create">Create List & Add Item</option>
       </select>
-
       <div className="colorPicker-addToList">ADD TO LIST</div>
     </div>
   );
 }
 export default ColorPicker;
-
-// TODO:
-// onClick review, move to section overallReviews
-// Pass currentColor out to update the large Product Image section

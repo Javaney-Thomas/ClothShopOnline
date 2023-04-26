@@ -1,6 +1,5 @@
 import React from "react";
 import "../componentsCSS/ProductLink.css"
-
 function ProductLink() {
   return (
     <div className='productLinkContainer'>

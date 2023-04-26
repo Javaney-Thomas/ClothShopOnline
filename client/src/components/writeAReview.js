@@ -1,9 +1,7 @@
 export default function WriteAReview() {
   const stars = "☆".repeat(5);
-
   return (
     <div className="dropdown1">
-      
         <div className="writeareview">WRITE A REVIEW</div>
         <div className="field"> Indicates a required field</div>
         <div className="score"> Score: </div>
@@ -35,7 +33,6 @@ export default function WriteAReview() {
                   <div className="satisfactionbar5"></div>
                 </div>
               </div>
-
               <div className="overallRating-Flex">
                 <input className="satisfactionrate" type="radio" />
                 <div>Somewhat satisfied</div>
@@ -47,7 +44,6 @@ export default function WriteAReview() {
                   <div className="somewhatbar5"></div>
                 </div>
               </div>
-
               <div className="overallRating-Flex">
                 <input className="satisfactionrate" type="radio" />
                 <div>Satisfied</div>
@@ -83,7 +79,6 @@ export default function WriteAReview() {
               </div>
             </div>
           </div>
-
           <div className="fitquestion">
             <p>How do you find the fit of this poduct?</p>
             <div className="overallRating-Flex">
@@ -120,7 +115,6 @@ export default function WriteAReview() {
               </div>
             </div>
           </div>
-
           <div className="scalequestion">
             <p>
               On a scale from 1 - 5 (5 being best) how would you rate the

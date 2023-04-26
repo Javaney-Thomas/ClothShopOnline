@@ -1,7 +1,6 @@
 import React from "react";
 import ReactImageMagnify from "react-image-magnify";
 import "../componentsCSS/productimage.css";
-
 const IMG = ({ imageLink }) => {
   return (
     <div className="IMG_container">
@@ -31,5 +30,4 @@ const IMG = ({ imageLink }) => {
     </div>
   );
 };
-
 export default IMG;

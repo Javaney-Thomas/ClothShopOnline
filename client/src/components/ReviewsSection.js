@@ -6,11 +6,9 @@ import "../componentsCSS/revQuest.css";
 
 const ReviewSection = (props) => {
   const [allReviews, setAllReviews] = useState([]);
-
-  const host = "https://phill-in-the-blank.onrender.com";
-
+  // const host = "https://phill-in-the-blank.onrender.com";
+  const host = "http://localhost:8000";
   const reviewPageNums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
   const getReviewData = async () => {
     try {
       let response = await fetch(host + "/api/reviews");
@@ -20,11 +18,9 @@ const ReviewSection = (props) => {
       console.error(err.message);
     }
   };
-
   useEffect(() => {
     getReviewData();
   }, []);
-
   return (
     <div className="reviews-all">
       {props.drawSearch ? (
@@ -111,7 +107,7 @@ const ReviewSection = (props) => {
           <h3>{allReviews.length + 600} Reviews</h3>
         </div>
       ) : null}
-      {allReviews.map((review, index) => {
+      {/* {allReviews.map((review, index) => {
         return (
           <ReviewsEntry
             key={index}
@@ -119,7 +115,7 @@ const ReviewSection = (props) => {
             drawSearch={props.drawSearch}
           />
         );
-      })}
+      })} */}
       <div>
         <div className="review-flex review-center">
           <div className="review-bold review-link-always">{"<"}</div>
@@ -139,5 +135,4 @@ const ReviewSection = (props) => {
     </div>
   );
 };
-
 export default ReviewSection;

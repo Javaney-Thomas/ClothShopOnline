@@ -4,11 +4,9 @@ import DropDowns from "./DropDowns";
 import SearchBar from "./SearchBar";
 import Icons from "./Icons";
 import "../componentsCSS/dropdowns.css";
-
 const Header = () => {
   const [currentMessage, setCurrentMessage] = useState(0);
   const [playMessage, setPlayMessage] = useState(true);
-
   const messages = [
     "BULK DISCOUNTS ON ORDERS OVER $80",
     "Now Offering: FREE 100 DAY RETURNS",
@@ -16,19 +14,16 @@ const Header = () => {
     "Free shipping on orders over $59",
     "Order by 11AM PT/ 2PM ET for same day processing",
   ];
-
   const changeMessageUp = () => {
     setCurrentMessage(
       currentMessage < messages.length ? currentMessage + 1 : 0
     );
   };
-
   const changeMessageDown = () => {
     setCurrentMessage(
       currentMessage > 0 ? currentMessage - 1 : messages.length - 1
     );
   };
-
   const rotateMessages = () => {
     if (playMessage) {
       setTimeout(() => {
@@ -37,7 +32,6 @@ const Header = () => {
       }, 4000);
     }
   };
-
   const playTheMessage = () => {
     setPlayMessage(true);
     rotateMessages();
@@ -46,11 +40,9 @@ const Header = () => {
   const pauseTheMessage = () => {
     setPlayMessage(false);
   };
-
   useEffect(() => {
     rotateMessages();
   }, []);
-
   return (
     <div className="header-all">
       <div className="HeaderComponent-messages">
@@ -69,7 +61,6 @@ const Header = () => {
             onClick={playTheMessage}
           />
         )}
-
         <img
           className="HeaderComponent-messages-LeftArrow"
           src="../images/arrow-left-white.png"
@@ -97,7 +88,6 @@ const Header = () => {
         </div>
         <div className="HeaderComponent-SearchBar-Spacer">
           <SearchBar />
-
           <Icons />
         </div>
       </div>
@@ -107,5 +97,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;

@@ -7,8 +7,6 @@
     text-align: center;
     padding-top: 10px;
 }
-
-
 .HeaderComponent-messages-PlayPause {
     height: 25px;
     width: 25px;
@@ -16,8 +14,6 @@
     border: none;
     left: 0;
 }
-
-
 .HeaderComponent-messages-LeftArrow {
     float: left;
     background-color: inherit;
@@ -25,8 +21,6 @@
     height: 25px;
     width: 25px;
 }
-
-
 .HeaderComponent-messages-Text {
     padding-top: 6px;
     color: whitesmoke;
@@ -35,8 +29,6 @@
     font-size: 90%;
     text-align: center;
 }
-
-
 .HeaderComponent-messages-RightArrow {
     float: right;
     background-color: inherit;
@@ -44,8 +36,6 @@
     height: 25px;
     width: 25px;
 }
-
-
 .HeadComponent-Accesibility {
     /*width: 100%;*/
     height: 25px;
@@ -54,8 +44,6 @@
     flex-wrap: nowrap;
     float: right;
 }
-
-
 .HeaderComponent-messages-AccesibilityText {
     font-size: 3.75mm;
     font-weight: normal;
@@ -65,13 +53,9 @@
     font-size: 0.9em;
     text-align: end;
 }
-
 .HeaderComponent-messages-AccesibilityText:hover {
     color: rgb(21, 131, 182);
 }
-
-
-
 .HeaderComponent-container {
     background-color: #ffffff;
     width: 100%;
@@ -83,8 +67,6 @@
     display: flex;
     /*display: inline-flex;*/
 }
-
-
 .HeaderComponent-Logo {
     color: crimson;
     /*float: left;*/
@@ -95,26 +77,17 @@
     margin-top: 0px;
     margin-bottom: 20px;
     flex-grow: 1px;
-    /*padding-top: 45px;*/
-    /*padding-left: 250px;*/
 }
-
 .HeaderComponent-Logo img {
     width: 200px;
 }
-
 .HeaderComponent-SearchBar {
-    /*display: inline-flex;*/
-    /*float: left;*/
-    /* padding-left: 625px; */
     flex-wrap: wrap;
     display: flex;
     padding-top: 20px;
     border: 10px rgb(63, 63, 63);
     margin-right: 20px;
 }
-
-
 .HeaderComponent-SearchButton {
     width: 38px;
     height: 38px;
@@ -122,11 +95,6 @@
     border-radius: 0 6px 6px 0;
     background-color: inherit;
 }
-
-
-
-
-
 .HeaderComponent-input {
     width: 100%;
     text-align: left;
@@ -135,104 +103,74 @@
     width: 290px;
     font-size: 1.6ex;
     text-decoration-color: dimgray;
-    /*display: inline;*/
 }
 
 .HeaderComponent-Icons {
     color: rgb(88, 88, 88);
     position: relative;
-    /*width: 200px;*/
     font-size: 10px;
     padding-top: 20px;
     flex-wrap: wrap;
     display: flex;
-    /*float: left;*/
-    /*display: inline-flex;*/
-    /*padding-left: 50px;*/
 }
-
 .HeaderComponent-IconContainerCart {
     display: block;
 }
-
 .HeaderComponent-IconContainerCart img {
     display: block;
     width: 32px;
 }
-
 .HeaderComponent-IconContainerLists {
     display: block;
 }
-
 .HeaderComponent-IconContainerLists img{
     display: block;
     width: 32px;
 }
-
 .HeaderComponent-IconContainerAccount {
     display: block;
 }
-
 .HeaderComponent-IconContainerAccount img {
     display: block;
     width: 32px;
 }
-
-
 .HeaderComponent-CartImage {
     /*display: contents;*/
     height: 24px;
     width: 30px;
 }
-
 .HeaderComponent-ListImage {
     /*display: contents;*/
     height: 24px;
     width: 30px;
 }
-
 .HeaderComponent-SearchBar-Spacer {
     flex-wrap: wrap;
     display: flex;
     margin-left: auto;
     margin-right: 0px;
 }
-
-/* .HeaderComponent-IconContainer {
-  display: inline;
-} */
-
 .HeaderComponent-IconsCart {
     color: rgb(88, 88, 88);
-    /*display: inline;*/
     padding-right: 35px;
     margin-left: 5px;
 }
-
 .HeaderComponent-IconsLists {
     color: rgb(88, 88, 88);
-    /*display: inline;*/
     padding-right: 35px;
     margin-left: 5px;
 }
-
 .HeaderComponent-IconsAccount {
     color: rgb(88, 88, 88);
-    /*display: inline;*/
     padding-right: 35px;
     margin-left: 5px;
 }
-
-
 .HeaderComponent-Menu {
     width: 100%;
     display: flex;
     margin-top: 10px;
     justify-content: center;
-
 }
-
-
 .HeaderCompenent-Men {
     border-style: none;
     background-color: inherit;
@@ -241,11 +179,9 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-Men:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-MenModal {
     position: absolute;
     background: #ffffff;
@@ -255,8 +191,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
-
 .HeaderCompenent-MenModalContent {
     height: 15px;
     width: 75px;
@@ -267,28 +201,21 @@
     display: inline-table;
     line-height: 1.8;
     column-count: 9;
-
 }
-
-
 .HeaderCompenent-MenModalContentHeader {
     text-decoration: none;
     color: rgb(88, 88, 88);
     display: inline-table;
 }
-
 .HeaderCompenent-MenModalContentHeader:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-MenModalContentHeaderList {
     text-decoration: none;
     color: #000000;
     padding: 1px;
     text-align: center;
 }
-
-
 .HeaderCompenent-Women {
     display: flex;
     border-style: none;
@@ -298,11 +225,9 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-Women:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-WomenModal {
     position: absolute;
     background: #ffffff;
@@ -310,8 +235,6 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
-
 .HeaderCompenent-WomenModalContent {
     height: 15px;
     width: 75px;
@@ -323,8 +246,6 @@
     line-height: 1.8;
     column-count: 9;
 }
-
-
 .HeaderCompenent-WomenModalContentHeader {
     text-decoration: none;
     margin-right: 5px;
@@ -332,18 +253,15 @@
     color: rgb(88, 88, 88);
     text-align: left;
 }
-
 .HeaderCompenent-WomenModalContentHeader:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-WomenModalContentHeaderList {
     text-decoration: none;
     color: #000000;
     padding: 1px;
     text-align: center;
 }
-
 .HeaderCompenent-Kids {
     border-style: none;
     background-color: inherit;
@@ -352,11 +270,9 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-Kids:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-KidsModal {
     position: absolute;
     background: #ffffff;
@@ -364,8 +280,6 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
-
 .HeaderCompenent-KidsModalContent {
     height: 15px;
     width: 75px;
@@ -377,8 +291,6 @@
     line-height: 1.8;
     column-count: 5;
 }
-
-
 .HeaderCompenent-KidsModalContentHeader {
     text-decoration: none;
     margin-right: 5px;
@@ -386,18 +298,15 @@
     color: rgb(88, 88, 88);
     text-align: left;
 }
-
 .HeaderCompenent-KidsModalContentHeader:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-KidsModalContentHeaderList {
     text-decoration: none;
     color: #000000;
     padding: 1px;
     text-align: center;
 }
-
 .HeaderCompenent-Accessories {
     border-style: none;
     background-color: inherit;
@@ -406,11 +315,9 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-Accessories:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-AccessoriesModal {
     position: absolute;
     background: #ffffff;
@@ -418,8 +325,6 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
-
 .HeaderCompenent-AccessoriesModalContent {
     height: 15px;
     width: 75px;
@@ -431,8 +336,6 @@
     line-height: 1.8;
     column-count: 1;
 }
-
-
 .HeaderCompenent-AccessoriesModalContentHeader {
     text-decoration: none;
     margin-right: 5px;
@@ -440,19 +343,15 @@
     color: rgb(88, 88, 88);
     text-align: left;
 }
-
 .HeaderCompenent-AccessoriesModalContentHeader:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-AccessoriesModalContentHeaderList {
     text-decoration: none;
     color: #000000;
     padding: 1px;
     text-align: center;
 }
-
-
 .HeaderCompenent-Brands {
     border-style: none;
     background-color: inherit;
@@ -461,21 +360,16 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-Brands:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-BrandsModal {
     position: absolute;
     background: #ffffff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-
 }
-
-
 .HeaderCompenent-BrandsModalContent {
     height: 250px;
     width: fit-content;
@@ -487,8 +381,6 @@
     padding-top: 25px;
     justify-content: space-evenly;
 }
-
-
 .HeaderCompenent-BrandsModalContentHeader {
     text-decoration: none;
     margin-right: 5px;
@@ -496,18 +388,15 @@
     color: rgb(88, 88, 88);
     text-align: left;
 }
-
 .HeaderCompenent-BrandsModalContentHeader:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-BrandsModalContentHeaderList {
     text-decoration: none;
     color: #000000;
     padding: 1px;
     text-align: center;
 }
-
 .HeaderCompenent-Closeout {
     border-style: none;
     background-color: inherit;
@@ -516,11 +405,9 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-Closeout:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-CloseoutModal {
     position: absolute;
     background: #ffffff;
@@ -528,8 +415,6 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
-
 .HeaderCompenent-CloseoutModalContent {
     height: 15px;
     width: 75px;
@@ -543,27 +428,21 @@
     justify-content: space-evenly;
     align-content: center;
 }
-
-
 .HeaderCompenent-CloseoutModalContentHeader {
     text-decoration: none;
     margin-right: 5px;
     margin-left: 5px;
     color: rgb(88, 88, 88);
 }
-
 .HeaderCompenent-CloseoutModalContentHeader:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-CloseoutModalContentHeaderList {
     text-decoration: none;
     color: #000000;
     padding: 1px;
     text-align: center;
 }
-
-
 .HeaderCompenent-Colors {
     border-style: none;
     background-color: inherit;
@@ -572,11 +451,9 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-Colors:hover {
     color: rgb(21, 131, 182);
 }
-
 .HeaderCompenent-FaceCovers {
     border-style: none;
     background-color: inherit;
@@ -585,11 +462,9 @@
     font-size: 0.9em;
     margin-right: 16px;
 }
-
 .HeaderCompenent-FaceCovers:hover {
     color: rgb(21, 131, 182);
 }
-
 ul {
     text-align: center;
     list-style-type: none;
@@ -597,79 +472,7 @@ ul {
     font-weight: light;
     color: rgb(88, 88, 88);
 }
-
 li:hover {
     color: rgb(21, 131, 182);
     font-weight: normal;
 }
-
-/*
-.header {
-    align-items: stretch;
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    width: 100%;
-}
-
-.header-left {
-    display: block;
-    width: 15%;
-}
-
-.header-right {
-    justify-content: center;
-    align-items: stretch;
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    width: 70%;
-}
-
-.header-logo {
-    object-fit: contain;
-    max-width: 150px;
-    max-height: 13px;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-.header-dropdown a {
-    text-decoration: none;
-    margin-right: 5px;
-    margin-left: 5px;
-    color: #000000;
-}
-
-.header-dropdown a:hover {
-    color: #0000FF;
-}
-
-.header-dropdown-content {
-    box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    background: #FFFFFF;
-    position: absolute;
-    overflow: auto;
-    display: none;
-    padding: 10px;
-    margin: 0px;
-    width: auto;
-}
-
-.header-dropdown-content a {
-    text-decoration: none;
-    color: #000000;
-    display: block;
-    padding: 1px;
-}
-
-.header-dropdown-content a:hover {
-    background: #EEEEEE;
-    color: #0000FF;
-}
-
-.header-dropdown:hover .header-dropdown-content {
-    display: block;
-}
-*/

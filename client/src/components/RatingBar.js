@@ -1,5 +1,4 @@
 import React from "react";
-
 const RatingBar = ({ title, rating }) => {
   return (
     <div className="review-RatingBar">
@@ -34,5 +33,4 @@ const RatingBar = ({ title, rating }) => {
     </div>
   );
 };
-
 export default RatingBar;

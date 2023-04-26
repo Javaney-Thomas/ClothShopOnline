@@ -1,8 +1,5 @@
 import React from "react";
-
 const Womens = ({ handleOpenW, handleCloseW }) => {
-  //object containing menu categories
-
   const Women = {
     Allwomen: "All Women",
     Tshirts: [
@@ -43,7 +40,6 @@ const Womens = ({ handleOpenW, handleCloseW }) => {
     ],
     juniors: "Juniors",
   };
-
   return (
     <>
       <div className="HeaderCompenent-WomenModal" onMouseLeave={handleCloseW}>
@@ -125,5 +121,4 @@ const Womens = ({ handleOpenW, handleCloseW }) => {
     </>
   );
 };
-
 export default Womens;

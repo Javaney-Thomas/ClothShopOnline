@@ -1,6 +1,5 @@
 import React from "react";
 import "../componentsCSS/colorPicker.css";
-
 function ColorPickerSizeColumn({ data }) {
   if (data.numavailable > 0) {
     return (
@@ -22,5 +21,4 @@ function ColorPickerSizeColumn({ data }) {
     );
   }
 }
-
 export default ColorPickerSizeColumn;

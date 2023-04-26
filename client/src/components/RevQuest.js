@@ -4,26 +4,20 @@ import { useEffect } from "react";
 import ReviewsSection from "./ReviewsSection.js";
 import QuestionsSection from "./QuestionsSection.js";
 import "../componentsCSS/revQuest.css";
-import { HandleAskQuestionClick } from "./overallReviews.js";
-
 const RevQuest = (props) => {
   const [currentDiv, setCurrentDiv] = useState("Reviews");
   const [drawSearch, setDrawSearch] = useState(true);
-
   const handleReviewsClick = async () => {
     console.log("Selected Reviews");
     setCurrentDiv("Reviews");
   };
-
   const handleQuestionsClick = async () => {
     console.log("Selected Questions");
     setCurrentDiv("Questions");
   };
-
   useEffect(() => {
     props.drawSearch == false ? setDrawSearch(false) : setDrawSearch(true);
   }, []);
-
   return (
     <div className="reviews-questions-all">
       <div
@@ -64,5 +58,4 @@ const RevQuest = (props) => {
     </div>
   );
 };
-
 export default RevQuest;

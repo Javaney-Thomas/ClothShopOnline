@@ -4,17 +4,14 @@
     font-weight: 300;
     font-size: .9em;
 }
-
 .QuestionsComponent:hover {
     color: teal;
 }
-
 .QuestionsComponent:active {
     color: teal;
     font-weight: 700;
     text-decoration: underline;
 }
-
 .QuestionsComponent-AllQuestions {
     margin-top: 40px;
     float: left;
@@ -24,21 +21,18 @@
     display: block;
     outline: 2px green;
 }
-
 .QuestionsComponent-AllQuestions-names {
     color: teal;
     font-weight: normal;
     font-size: smaller;
     display: inline;
 }
-
 .QuestionsComponent-AllQuestions-Questions {
     color: grey;
     font-weight: normal;
     font-size: smaller;
     display: inline;
 }
-
 .review-line {
     position: relative;
     margin-top: 55px;

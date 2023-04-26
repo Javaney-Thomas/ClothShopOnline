@@ -1,8 +1,5 @@
 import React from "react";
-import { useState } from "react";
 import RevQuest from "./RevQuest";
-// import "../componentsCSS/starReview.css";
-
 const StarReviewChild = (props) => {
   const handleOutsideClick = () => {
     props.handleExit();
@@ -10,7 +7,6 @@ const StarReviewChild = (props) => {
   const handleInsideClick = (e) => {
     e.stopPropagation();
   };
-
   return (
     <div className="starReview-Screen" onClick={handleOutsideClick}>
       <div className="starReview-BigModal" onClick={handleInsideClick}>
@@ -44,5 +40,4 @@ const StarReviewChild = (props) => {
     </div>
   );
 };
-
 export default StarReviewChild;

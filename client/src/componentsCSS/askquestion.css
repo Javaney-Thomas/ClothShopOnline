@@ -3,23 +3,19 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .requiredfield{
     margin-left: 205px;
     margin-bottom: 20px;
 }
-
 .question{
     margin-left: 205px;
 }
-
 .questionbox{
     margin-left: 206px;
     width: 60%;
     line-height: 5;
     text-align: center;
 }
-
 .name{
     position: relative;
     left: -374px;
@@ -30,14 +26,12 @@
     position: relative;
     right: -371px;
 }
-
 .inputnameEmail{
     position: relative;
     margin-bottom: 160px;
     margin-top: 50px;
     text-align: center;
 }
-
 .namebox{
     height: 32px;
     min-width: 148px;
@@ -46,7 +40,6 @@
     width: 400px;
     margin-right: 20px;
 }
-
 .emailbox{
     height: 32px;
     min-width: 148px;
@@ -54,19 +47,16 @@
     font-size: 13px;
     width: 400px;
 }
-
 .name{
     float: left;
     margin-left: 610px;
     margin-top: 20px;
 }
-
 .email{
     float: right;
     margin-right: 960px;
     margin-top: 20px;
 }
-
 .requiredfield::before{
     content: "*";
     color:red
@@ -76,12 +66,10 @@
     content: "*";
     color:red
 }
-
 .name::before{
     content: "*";
     color:red
 }
-
 .email::before{
     content: "*";
     color:red

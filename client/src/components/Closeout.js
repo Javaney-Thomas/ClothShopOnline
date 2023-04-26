@@ -1,12 +1,8 @@
 import React from "react";
-
 const Closeout = ({ handleOpenC, handleCloseC }) => {
-  //object containing menu categories
-
   const closeout = {
     AllCloseout: ["Men", "Women", "Kids"],
   };
-
   return (
     <>
       <div
@@ -27,5 +23,4 @@ const Closeout = ({ handleOpenC, handleCloseC }) => {
     </>
   );
 };
-
 export default Closeout;

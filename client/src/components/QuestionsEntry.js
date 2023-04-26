@@ -1,6 +1,5 @@
 import React from "react";
 import "./QuestionsSection.css";
-
 const QuestionsEntry = ({ data }) => {
   return (
     <div className="review-entry">
@@ -65,7 +64,6 @@ const QuestionsEntry = ({ data }) => {
           }}
         />
       </div>
-
       <hr
         style={{
           marginTop: "0px",
@@ -77,5 +75,4 @@ const QuestionsEntry = ({ data }) => {
     </div>
   );
 };
-
 export default QuestionsEntry;

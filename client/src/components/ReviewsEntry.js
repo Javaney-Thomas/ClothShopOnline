@@ -3,24 +3,19 @@ import { useState } from "react";
 import { useEffect } from "react";
 import RatingBar from "./RatingBar";
 import "../componentsCSS/revQuest.css";
-
 const ReviewsEntry = ({ data, drawSearch }) => {
   const [starRating, setStarRating] = useState("");
   const [shareLinks, setShareLinks] = useState(false);
-
   const getStarRating = () => {
     const starsArray = [0, "★☆☆☆☆", "★★☆☆☆", "★★★☆☆", "★★★★☆", "★★★★★"];
     setStarRating(starsArray[Math.floor(data.rating)]);
   };
-
   const handleShareLinks = () => {
     setShareLinks(shareLinks ? false : true);
   };
-
   useEffect(() => {
     getStarRating();
   }, []);
-
   return (
     <div className="review-entry">
       <div className="review-userLeft">
@@ -130,5 +125,4 @@ const ReviewsEntry = ({ data, drawSearch }) => {
     </div>
   );
 };
-
 export default ReviewsEntry;

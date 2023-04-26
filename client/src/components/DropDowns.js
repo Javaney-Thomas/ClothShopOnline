@@ -14,45 +14,36 @@ const DropDowns = () => {
   const [modalA, setModalA] = useState(false);
   const [modalB, setModalB] = useState(false);
   const [modalC, setModalC] = useState(false);
-
-  //keeps modal from opening on initial render
   const handleClose = () => setModal(false);
   const handleOpen = () => {
     handleCloseAll();
     setModal(true);
   };
-
-  //keeps modal from opening on initial render
   const handleCloseW = () => setModalW(false);
   const handleOpenW = () => {
     handleCloseAll();
     setModalW(true);
   };
-
   const handleCloseK = () => setModalK(false);
   const handleOpenK = () => {
     handleCloseAll();
     setModalK(true);
   };
-
   const handleCloseA = () => setModalA(false);
   const handleOpenA = () => {
     handleCloseAll();
     setModalA(true);
   };
-
   const handleCloseB = () => setModalB(false);
   const handleOpenB = () => {
     handleCloseAll();
     setModalB(true);
   };
-
   const handleCloseC = () => setModalC(false);
   const handleOpenC = () => {
     handleCloseAll();
     setModalC(true);
   };
-
   const handleCloseAll = () => {
     setModal(false);
     setModalW(false);
@@ -132,5 +123,4 @@ const DropDowns = () => {
     </>
   );
 };
-
 export default DropDowns;

@@ -1,6 +1,5 @@
 import React from "react";
 import "../componentsCSS/dropdowns.css";
-
 const SearchBar = (props) => {
   return (
     <>
@@ -19,5 +18,4 @@ const SearchBar = (props) => {
     </>
   );
 };
-
 export default SearchBar;

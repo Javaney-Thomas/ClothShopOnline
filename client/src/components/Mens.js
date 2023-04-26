@@ -1,7 +1,5 @@
 import React from "react";
-
 const Mens = ({ modal, handleOpen, handleClose }) => {
-  //object containing menu categories
   const Men = {
     Allmen: "All Men",
     Tshirts: [
@@ -127,5 +125,4 @@ const Mens = ({ modal, handleOpen, handleClose }) => {
     </>
   );
 };
-
 export default Mens;

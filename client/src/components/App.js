@@ -14,21 +14,17 @@ import RevQuest from "./RevQuest";
 import FooterComponent from "./footer";
 import StarReview from "./StarReview";
 import StarReviewChild from "./StarReview-Child";
-
 const App = () => {
   const [showSmallModal, setShowSmallModal] = useState(true);
   const [showBigModal, setShowBigModal] = useState(false);
-
   const launchBigReviewsModal = () => {
     setShowSmallModal(false);
     setShowBigModal(true);
   };
-
   const launchSmallReviewsModal = () => {
     setShowBigModal(false);
     setShowSmallModal(true);
   };
-
   return (
     <div style={{ flexWrap: "wrap", display: "flex" }}>
       <div
@@ -68,5 +64,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;

@@ -1,7 +1,5 @@
 import React from "react";
-import { useState } from "react";
 import "../componentsCSS/starReview.css";
-
 const StarReview = (props) => {
   return (
     <>
@@ -11,5 +9,4 @@ const StarReview = (props) => {
     </>
   );
 };
-
 export default StarReview;

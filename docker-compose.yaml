@@ -1,7 +1,3 @@
-version: '3'
-# This example runs three servers, PostgreSQL, pgAdmin, and a frontEnd server
-
-# Each service runs in a seperate container
 services:
   shopping-db:
     container_name: shopping-db
@@ -14,9 +10,9 @@ services:
       POSTGRES_PORT: 5432
       POSTGRES_DB: shopping
       PGDATA: /var/lib/postgresql/data
-    ports:
+    ports: 
       - "5432:5432"
-    volumes:
+    volumes: 
       - pgdatasource:/var/lib/postgresql/data
 
   pgadmin:
@@ -26,11 +22,11 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: fec@mail.com
       PGADMIN_DEFAULT_PASSWORD: password
-    ports:
+    ports: 
       - "8080:80"
-    volumes:
+    volumes: 
       - pgadmin-data:/var/lib/pgadmin
-    depends_on:
+    depends_on: 
       - shopping-db
 
 volumes:

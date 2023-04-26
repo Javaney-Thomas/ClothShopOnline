@@ -1,19 +1,13 @@
 import React, { useState } from "react";
 import "../componentsCSS/detailsizechart.css";
-
 const Tabs = () => {
   const [toggleState, setToggleState] = useState(1);
-
-  //toggletab is a function that takes in an index and sets the togglestate to that index
-  //index refers to the tab that is clicked on
   const toggleTab = (index) => {
     setToggleState(index);
   };
-
   return (
     <div className="tabcontainer">
       <div className="tabheader">
-
         <div
           className={toggleState === 1 ? "tab active-tab" : "tab"}
           onClick={() => toggleTab(1)}
@@ -21,7 +15,6 @@ const Tabs = () => {
         >
           Details
         </div>
-
         <div
           className={toggleState === 2 ? "tab active-tab" : "tab"}
           onClick={() => toggleTab(2)}
@@ -31,12 +24,6 @@ const Tabs = () => {
         </div>
       </div>
       <div className="tabcontent">
-        {/* content is the class name for the tab content and active-content is the class name for the tab content that is clicked on */}
-
-        {/* the ternary operator is used to determine which tab content is displayed */}
-
-        {/* onclick is a function that calls the toggleTab function and passes in the index of the tab that is clicked on */}
-
         <div
           className={toggleState === 1 ? "content active-content" : "content"}
         >
@@ -60,7 +47,6 @@ const Tabs = () => {
             <li>Tear away label</li>
           </ul>
         </div>
-
         <div
           className={toggleState === 2 ? "content active-content" : "content"}
         >
@@ -155,5 +141,4 @@ const Tabs = () => {
     </div>
   );
 };
-
 export default Tabs;

@@ -1,8 +1,6 @@
 import React from "react";
 
 const Accessories = ({ handleOpenA, handleCloseA }) => {
-  //object containing menu categories
-
   const accessories = {
     AllAccessories: [
       "Hats & Scarves",
@@ -13,7 +11,6 @@ const Accessories = ({ handleOpenA, handleCloseA }) => {
       "Other",
     ],
   };
-
   return (
     <>
       <div
@@ -34,5 +31,4 @@ const Accessories = ({ handleOpenA, handleCloseA }) => {
     </>
   );
 };
-
 export default Accessories;

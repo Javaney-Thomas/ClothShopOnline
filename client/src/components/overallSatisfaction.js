@@ -14,7 +14,6 @@ How would you rate your overall satisfaction with this product?
       <span className="satisfactionbar5"></span>
     </span>
   </div>
-
   <div>
     <input type="radio" id="somewhatsatisfied" name="drone" value="somewhatsatisfied"/>
     <label for="dewey">Somewhat satisfied</label>
@@ -26,7 +25,6 @@ How would you rate your overall satisfaction with this product?
       <span className="somewhatbar5"></span>
     </span>
   </div>
-
   <div>
     <input type="radio" id="satisfied" name="drone" value="satisfied"/>
     <label for="satisfied">Satisfied</label>
@@ -145,33 +143,24 @@ How would you rate your overall satisfaction with this product?
     <div> Which of the following best describes your delivery experience?
     <input type="radio" id="early" name="drone" value="early"/>
     <label for="early">Early</label>
-
     <input type="radio" id=" On time" name="drone" value=" On time"/>
     <label for=" On time"> On time</label>
-
     <input type="radio" id="Late" name="drone" value="Late"/>
     <label for="Late">Late</label>
     </div>
-
     <div> This style works best for which decoration method?
     <input type="checkbox" id="Sublimation" name="drone" value="Sublimation"/>
     <label for="Sublimation">Sublimation</label>
-
     <input type="checkbox" id=" Heat Transfer" name="drone" value=" Heat Transfer"/>
     <label for=" Heat Transfer"> Heat Transfer</label>
-
     <input type="checkbox" id="Screen Printing" name="drone" value="Screen Printing"/>
     <label for="Screen Printing">Screen Printing</label>
-
     <input type="checkbox" id="Tie Dye" name="drone" value="Tie Dye"/>
     <label for="Tie Dye">Tie Dye</label>
-
     <input type="checkbox" id="Emroidery" name="drone" value="Emroidery"/>
     <label for="Emroidery">Emroidery</label>
-
     <input type="checkbox" id="Direct to Garment" name="drone" value="Direct to Garment"/>
     <label for="Direct to Garment">Direct to Garment</label>
-
     <input type="checkbox" id="Keep it blank" name="drone" value="Keep it blank"/>
     <label for="Keep it blank">Keep it blank</label>
     </div>

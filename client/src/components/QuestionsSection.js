@@ -3,13 +3,9 @@ import QuestionsEntry from "./QuestionsEntry";
 import "./QuestionsSection.css";
 const QuestionsSection = () => {
   const [questions, setQuestions] = useState([]);
-
   const questionPageNums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-  //Assigns webpage to host variable
-  const host = "https://phill-in-the-blank.onrender.com";
-
-  //gets data from database on render
+  // const host = "https://phill-in-the-blank.onrender.com";
+  const host = "http://localhost:8000";
   const getQuestions = async () => {
     try {
       let response = await fetch(host + "/api/questions");
@@ -20,12 +16,9 @@ const QuestionsSection = () => {
       console.error(err.message);
     }
   };
-
-  //calls function
   useEffect(() => {
     getQuestions();
   }, []);
-
   return (
     <div>
       {questions.map((question, index) => {
@@ -50,5 +43,4 @@ const QuestionsSection = () => {
     </div>
   );
 };
-
 export default QuestionsSection;

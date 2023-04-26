@@ -1,8 +1,5 @@
 import React from "react";
-
 const Brands = ({ handleOpenB, handleCloseB }) => {
-  //object containing menu categories
-
   const brands = {
     AllBrands: [
       "47 Brand",
@@ -47,7 +44,6 @@ const Brands = ({ handleOpenB, handleCloseB }) => {
       "IZOD",
     ],
   };
-
   return (
     <>
       <div className="HeaderCompenent-BrandsModal" onMouseLeave={handleCloseB}>
@@ -65,5 +61,4 @@ const Brands = ({ handleOpenB, handleCloseB }) => {
     </>
   );
 };
-
 export default Brands;
